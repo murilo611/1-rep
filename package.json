@@ -1,0 +1,38 @@
+{
+  "name": "luhimob",
+  "version": "1.0.0",
+  "description": "Empreendimentos",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mephistol1/luanaimobi.git"
+  },
+  "author": "lucasguimaraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mephistol1/luanaimobi/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/mephistol1/luanaimobi#readme",
+  "devDependencies": {
+    "Faker": "^0.7.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+    "path": "^0.12.7",
+    "express-session": "^1.15.6"
+  }
+}
