@@ -1,0 +1,6 @@
+ <script>
+        // Função JavaScript que dispara um alarme
+        function triggerAlarm() {
+            alert('Alarme disparado!');
+        }
+    </script>
