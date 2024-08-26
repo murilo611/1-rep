@@ -4,7 +4,36 @@
     <title>Hello World</title>
 </head>
 <body>
-    <h1>Este é um Cabeçalho de Nível 1</h1>
-    <p>Este é um parágrafo de texto abaixo do cabeçalho.</p>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão com Alarme</title>
+    <style>
+        /* Adicione estilos básicos para o botão */
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão com o texto especificado -->
+    <button class="button" onclick="triggerAlarm()">Lucas o Pica da Programação</button>
+
+    <script>
+        // Função JavaScript que dispara um alarme
+        function triggerAlarm() {
+            alert('Alarme disparado!');
+        }
+    </script>
 </body>
 </html>
